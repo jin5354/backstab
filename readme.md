@@ -1,6 +1,6 @@
 # backstab
 
-Bury latent information to your web page for confidentiality and track。
+Bury latent information to your web page for confidentiality and track.
 
 If someone leak data by screenshots, you can reveal identity information from the picture.
 
@@ -8,7 +8,7 @@ If someone leak data by screenshots, you can reveal identity information from th
 
 ```JavaScript
 new Backstab({
-  content: 'the text you want to latent',
+  content: 'the text you want to bury',
   container: document.body
 })
 ```
@@ -26,9 +26,9 @@ new Backstab({
 
 ## reveal
 
-![screenshots](https://user-images.githubusercontent.com/6868950/38608796-f0014b6a-3dae-11e8-872a-bc2bea8020ae.png)
+![screenshots](https://user-images.githubusercontent.com/6868950/38609510-d8addddc-3db0-11e8-8ccb-4f773edac449.png)
 
-![image](https://user-images.githubusercontent.com/6868950/38608862-278d10f0-3daf-11e8-8b2f-ab9fd698dfa1.png)
+![image](https://user-images.githubusercontent.com/6868950/38609569-001c6f28-3db1-11e8-9e9f-b3cbc129c710.png)
 
 ## license
 MIT
