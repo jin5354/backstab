@@ -4,9 +4,17 @@ Bury latent information to your web page for confidentiality and track.
 
 If someone leak data by screenshots, you can reveal identity information from the picture.
 
+## install
+
+```bash
+$ npm install backstab --save
+```
+
 ## usage
 
 ```JavaScript
+import Backstab from 'backstab'
+
 new Backstab({
   content: 'the text you want to bury',
   container: document.body
