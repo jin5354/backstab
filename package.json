@@ -1,6 +1,6 @@
 {
   "name": "backstab",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Add latent information to your web page.",
   "main": "built/index.js",
   "scripts": {

@@ -1,5 +1,8 @@
 # backstab
 
+[![Build Status](https://travis-ci.org/jin5354/backstab.svg?branch=master)](https://travis-ci.org/jin5354/backstab)
+[![npm](https://img.shields.io/npm/v/wdui.svg)](https://www.npmjs.com/package/backstab)
+
 Bury latent information to your web page for confidentiality and track.
 
 If someone leak data by screenshots, you can reveal identity information from the picture.
