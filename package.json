@@ -11,6 +11,7 @@
   "license": "MIT",
   "devDependencies": {
     "tslint": "^5.9.1",
-    "tslint-config-standard": "^7.0.0"
+    "tslint-config-jin": "^1.0.1",
+    "typescript": "^2.8.1"
   }
 }
