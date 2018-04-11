@@ -28,6 +28,8 @@ new Backstab({
 
 ![screenshots](https://user-images.githubusercontent.com/6868950/38609510-d8addddc-3db0-11e8-8ccb-4f773edac449.png)
 
+This is a screenshot with 0.005 opacity buried information. Open it with PhotoShop, add new pure black upper layer, use `hard mix` blending mode to show the text.
+
 ![image](https://user-images.githubusercontent.com/6868950/38609569-001c6f28-3db1-11e8-9e9f-b3cbc129c710.png)
 
 ## license
