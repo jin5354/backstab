@@ -1,11 +1,11 @@
-interface waterMarkConfig {
+interface WaterMarkConfig {
   content: string
   container: HTMLElement
   mode: backstabMode
-  style: waterMarkStyle
+  style: WaterMarkStyle
 }
 
-interface waterMarkStyle {
+interface WaterMarkStyle {
   gridHeight: number
   gridWidth: number
   fontSize: number
@@ -22,9 +22,9 @@ class Backstab {
   content: string
   mode: string
   container: HTMLElement
-  style: waterMarkStyle
+  style: WaterMarkStyle
 
-  constructor(config: waterMarkConfig) {
+  constructor(config: WaterMarkConfig) {
     this.content = config.content || ''
     this.mode = config.mode || 'cover'
     this.container = config.container || document.body
@@ -33,7 +33,7 @@ class Backstab {
     this.generateDOM()
   }
 
-  initStyle(styleConfig: waterMarkStyle = {} as waterMarkStyle): waterMarkStyle {
+  initStyle(styleConfig: WaterMarkStyle = {} as WaterMarkStyle): WaterMarkStyle {
     return styleConfig = {
       gridHeight: 60,
       gridWidth: 150,
