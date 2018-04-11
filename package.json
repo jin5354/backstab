@@ -1,11 +1,11 @@
 {
   "name": "backstab",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "Add latent information to your web page.",
+  "main": "built/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "jin5354<xiaoyanjinx@gmail.com>",
   "license": "MIT"
 }
