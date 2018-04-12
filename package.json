@@ -1,8 +1,9 @@
 {
   "name": "backstab",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Add latent information to your web page.",
-  "main": "built/index.js",
+  "main": "./built/index.js",
+  "types": "./built/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "tslint src/**/* --fix"

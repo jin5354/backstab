@@ -12,7 +12,7 @@ var backstabMode;
 (function (backstabMode) {
     backstabMode["cover"] = "cover";
     backstabMode["mixin"] = "mixin";
-})(backstabMode || (backstabMode = {}));
+})(backstabMode = exports.backstabMode || (exports.backstabMode = {}));
 var Backstab = /** @class */ (function () {
     function Backstab(config) {
         this.content = config.content || '';

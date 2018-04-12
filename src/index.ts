@@ -1,11 +1,11 @@
-interface WaterMarkConfig {
+export interface WaterMarkConfig {
   content: string
   container: HTMLElement
   mode: backstabMode
   style: WaterMarkStyle
 }
 
-interface WaterMarkStyle {
+export interface WaterMarkStyle {
   gridHeight: number
   gridWidth: number
   fontSize: number
@@ -13,7 +13,7 @@ interface WaterMarkStyle {
   rotate: number
 }
 
-enum backstabMode {
+export enum backstabMode {
   cover = 'cover',
   mixin = 'mixin'
 }
